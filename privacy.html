@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>นโยบายความเป็นส่วนตัว - 8เอ็กซ์เบท</title>
+  <meta name="description" content="นโยบายความเป็นส่วนตัวของส่วนขยาย Chrome สำหรับ 8เอ็กซ์เบท">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, 'Noto Sans Thai', sans-serif;
+      background: #0d0a0a;
+      color: #e2e8f0;
+      line-height: 1.8;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 24px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 48px;
+      padding-bottom: 32px;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      color: #f1f5f9;
+      margin-bottom: 8px;
+    }
+
+    h1 span {
+      background: linear-gradient(135deg, #dc2626, #f87171);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .subtitle {
+      color: #64748b;
+      font-size: 14px;
+    }
+
+    h2 {
+      font-size: 20px;
+      font-weight: 600;
+      color: #f87171;
+      margin-top: 36px;
+      margin-bottom: 14px;
+      padding-left: 14px;
+      border-left: 3px solid #ef4444;
+    }
+
+    p, li {
+      font-size: 15px;
+      color: #cbd5e1;
+      margin-bottom: 12px;
+    }
+
+    ul {
+      padding-left: 24px;
+      margin-bottom: 16px;
+    }
+
+    li { margin-bottom: 8px; }
+
+    .highlight-box {
+      background: rgba(239, 68, 68, 0.08);
+      border: 1px solid rgba(239, 68, 68, 0.2);
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin: 24px 0;
+    }
+
+    .highlight-box p { color: #94a3b8; margin-bottom: 0; }
+    .highlight-box strong { color: #f87171; }
+
+    .contact-info {
+      background: #1a1010;
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 12px;
+      padding: 24px;
+      margin-top: 32px;
+    }
+
+    .contact-info h3 { font-size: 16px; color: #f1f5f9; margin-bottom: 12px; }
+    .contact-info p  { font-size: 14px; color: #94a3b8; margin-bottom: 6px; }
+
+    footer {
+      text-align: center;
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid rgba(255,255,255,0.06);
+      color: #475569;
+      font-size: 13px;
+    }
+
+    a { color: #f87171; text-decoration: none; }
+    a:hover { text-decoration: underline; color: #f59e0b; }
+
+    @media (max-width: 600px) {
+      .container { padding: 24px 16px; }
+      h1 { font-size: 22px; }
+      h2 { font-size: 17px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>นโยบายความเป็นส่วนตัว — <span>8เอ็กซ์เบท</span></h1>
+      <p class="subtitle">วันที่อัปเดต: 19 มีนาคม 2569 (2026)</p>
+    </header>
+
+    <h2>1. ภาพรวม</h2>
+    <p>ส่วนขยาย Chrome "8เอ็กซ์เบท" ("ส่วนขยาย", "เรา") เป็นทางลัดที่ช่วยให้ผู้ใช้เข้าถึงลิงก์ เดิมพันกีฬา คาสิโนสด สล็อต และโปรโมชั่นของ 8เอ็กซ์เบท ได้รวดเร็วจากแถบเครื่องมือ Chrome เราให้ความสำคัญกับความเป็นส่วนตัวของคุณและมุ่งมั่นที่จะไม่เก็บข้อมูลส่วนบุคคลโดยไม่จำเป็น</p>
+
+    <div class="highlight-box">
+      <p><strong>สรุปสั้น:</strong> ส่วนขยายนี้ไม่ส่งข้อมูลใดๆ ออกไปยังเซิร์ฟเวอร์ภายนอก ข้อมูลทั้งหมดถูกจัดเก็บไว้ใน Chrome บนอุปกรณ์ของคุณเท่านั้น</p>
+    </div>
+
+    <h2>2. ข้อมูลที่เก็บในอุปกรณ์</h2>
+    <p>ส่วนขยายเก็บข้อมูลต่อไปนี้ไว้ใน Chrome Storage API บนอุปกรณ์ของคุณเท่านั้น:</p>
+    <ul>
+      <li><strong>รายการโปรด:</strong> รายการ ID ของลิงก์ที่คุณบันทึกไว้เป็นโปรด เพื่อแสดงผลในแผงรายการโปรด</li>
+      <li><strong>ธีมสี:</strong> การตั้งค่าธีมสว่าง/เข้ม เพื่อแสดงผลตามความต้องการของคุณ</li>
+    </ul>
+
+    <h2>3. ข้อมูลที่ไม่มีการเก็บหรือส่ง</h2>
+    <ul>
+      <li>ข้อมูลส่วนตัว (ชื่อ ที่อยู่ อีเมล ฯลฯ)</li>
+      <li>ประวัติการเข้าชมเว็บไซต์</li>
+      <li>พฤติกรรมการคลิกหรือการใช้งาน</li>
+      <li>ข้อมูลทางการเงิน</li>
+      <li>ข้อมูลตำแหน่งที่ตั้ง</li>
+      <li>ข้อมูลอุปกรณ์หรือข้อมูลระบุตัวตน</li>
+    </ul>
+
+    <h2>4. การใช้สิทธิ์ (Permissions)</h2>
+    <p>ส่วนขยายขอสิทธิ์เฉพาะที่จำเป็นเท่านั้น:</p>
+    <ul>
+      <li><strong>storage:</strong> ใช้สำหรับบันทึกรายการโปรดและธีมของคุณไว้ในอุปกรณ์ ไม่มีการส่งข้อมูลออกไปภายนอก</li>
+    </ul>
+
+    <h2>5. บริการเว็บไซต์ภายนอก</h2>
+    <p>เมื่อคุณคลิกลิงก์ใดๆ ในส่วนขยาย คุณจะถูกนำไปยังเว็บไซต์ของ 8เอ็กซ์เบท (ukwelding.com หรือ 8xthb14.com) ซึ่งมีนโยบายความเป็นส่วนตัวของตนเอง เราแนะนำให้อ่านนโยบายดังกล่าวก่อนใช้งาน</p>
+
+    <h2>6. ความปลอดภัย</h2>
+    <p>ส่วนขยายไม่มีการรันโค้ดภายนอก (remote code execution) ไม่ใช้ eval() หรือ new Function() และทำงานสอดคล้องกับนโยบาย Manifest V3 ที่ Google กำหนด</p>
+
+    <h2>7. การเปลี่ยนแปลงนโยบาย</h2>
+    <p>หากมีการเปลี่ยนแปลงนโยบายนี้ เราจะอัปเดต "วันที่อัปเดต" ที่ด้านบนของหน้านี้ การใช้ส่วนขยายต่อหลังจากนั้นถือว่าคุณยอมรับนโยบายที่อัปเดตแล้ว</p>
+
+    <h2>8. ติดต่อเรา</h2>
+    <div class="contact-info">
+      <h3>หากมีคำถามเกี่ยวกับนโยบายนี้</h3>
+      <p>กรุณาติดต่อผ่านเว็บไซต์หลัก:</p>
+      <p>🌐 <a href="https://ukwelding.com/" target="_blank" rel="noopener">ukwelding.com</a></p>
+    </div>
+
+    <footer>
+      <p>8เอ็กซ์เบท Extension &copy; 2026 &nbsp;|&nbsp; <a href="popup.html">กลับหน้าหลัก</a></p>
+    </footer>
+  </div>
+</body>
+</html>
